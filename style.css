@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 8px;
+
+}
+header{
+width: 100%;
+position: fixed;
+z-index: 100;
+
+    
+}
+header nav ul{
+text-align: right;
+background: #ffffff;
+padding: 10px 90px;
+box-shadow: 0 0 20px 1px;
+
+}
+header nav ul .q img{
+    width: 215px;
+    float: left;
+    padding:  7.5px 20px 20px 20px;
+}
+header nav ul .i {
+    width: 18px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    right: 2px;
+    
+}
+#nli{
+    display: inline-block;
+}
+#nli li{
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+    margin: 0px;
+    border-radius: 10px;
+}
+#nli li:hover{
+    background: #c6c6c6;
+    /* border-radius: 50%; */
+}
+#second  img{
+    width: 30px;
+    display: inline-block;
+    padding: 5px;
+    
+    color: black;
+}
+
+#second:hover{
+    background: #c6c6c6;
+    border-radius: 50%;
+}
+
+#second {
+    position: relative;
+    right: -12px;
+    display: inline-block;
+    padding: 5px;
+}
+.top-header-image{
+    width: 100%;
+    height: 650px;
+    /* background-color: #000000; */
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    
+}
+.top-header-image img{
+float: right;
+margin-top: -41px;
+width: 630px ;
+height:  590px;
+object-fit: cover;
+object-position: 0%;
+}
+.top-header-image p{
+display: inline-block;    
+inline-size: 750px;
+font-size: 42px;
+font-weight: 650;
+}
+.left-side{
+    margin: 140px 0 0 100px;
+}
+.left-side input{
+    border-radius: 10px;
+    border:1px solid #000000b0;
+    outline: none;
+    padding: 10px;
+    width: 600px;
+}
+.search{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.btn-1{
+    display: inline-block;
+    background-color: #e21b70;
+    color: white;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    transition: 0.1s ease-out;
+}
+.btn-1:hover{
+    background-color: #ca1161;
+    border-radius: 8px;
+    transform: scale(1.18);
+}
+.search .loc{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    background: #ffffff;
+    padding: 7px;
+    top: 27.7px;
+    left: 512px;
+}
+.search .loc:hover{
+    color: #e21b70;
+    cursor: pointer;
+}
+.search .loc:active{
+    color: #891045;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.search img{
+    width: 28px;
+    height: 30px;
+    background-color: #ffffff;
+    padding: 5px;
+    position: absolute;
+    top: 75.5px;
+    right: 244px;
+    object-fit: contain;
+    z-index: 1;
+}
+.parent{
+    position: relative;
+    height: 250px;
+    
+}
+
+#second-container-image{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+
+    
+}
+.image-discription{
+    width: 650px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 1px;
+    padding: 20px;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+}
+.pink-btn{
+    background-color: #e21b70;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+   
+}
+.pink-btn:hover{
+transform: scale(1.11);
+background-color: #ca1161;
+}
+.relative{
+position: relative;    
+}
