@@ -10,11 +10,14 @@ header nav ul li{
 header{
 width: 100%;
 position: fixed;
+right: 0px;
 z-index: 100;
 
     
 }
+
 header nav ul{
+    width: 100%;
 text-align: right;
 background: #ffffff;
 padding: 10px 90px;
@@ -163,8 +166,7 @@ font-weight: 650;
     height: 400px;
     position: relative;
     z-index: -1;
-
-    
+   
 }
 .image-discription{
     width: 650px;
@@ -192,4 +194,67 @@ background-color: #ca1161;
 }
 .relative{
 position: relative;    
+}
+
+.sentence-box{
+    background-color: #e21b70;
+    position: relative;
+    width: 100%;
+    height: 310px;
+    border-radius: 50px;
+    padding: 40px 20px;
+}
+.sen-img img{
+    width: 100px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 13px;
+}
+.sen-t{
+    position: relative;
+    top: 20px;
+    color: white;
+    text-align: left;
+}
+.mob img{
+    width: 600px;
+    object-fit: contain;
+    position: relative;
+    top: -157px;
+    right: -101px;
+}
+.second-container1{
+    position: relative;
+    margin: -112px;
+    z-index: 1; 
+    overflow: hidden;
+}
+#second-container-image1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+
+   
+}
+.image-discription1{
+    width: 650px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 1px;
+    padding: 20px;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+.images-web{
+    margin-top: 200px;
+}
+.check{
+    color: #e21b70;
+}
+.theory ul li{
+    list-style: none;
 }
