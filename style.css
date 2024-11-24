@@ -1,5 +1,10 @@
 *{
     margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+h2{
+   font-weight: 10000; 
 }
 header nav ul li{
     display: inline-block;
@@ -133,9 +138,9 @@ font-weight: 650;
     font-weight: 400;
     position: absolute;
     background: #ffffff;
-    padding: 7px;
-    top: 27.7px;
-    left: 512px;
+    padding: 5px;
+    top: 28.7px;
+    left: 506px;
 }
 .search .loc:hover{
     color: #e21b70;
@@ -152,8 +157,8 @@ font-weight: 650;
     background-color: #ffffff;
     padding: 5px;
     position: absolute;
-    top: 75.5px;
-    right: 244px;
+    top: 74.5px;
+    right: 264px;
     object-fit: contain;
     z-index: 1;
 }
